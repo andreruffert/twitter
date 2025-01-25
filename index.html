@@ -5,7 +5,24 @@
       }
       #manifest-error {
         display: none;
-      }</style><link rel="icon" href="./assets/images/favicon.ico"></head><body><div id="root"></div><div id="manifest-error"><h3>Something went wrong, but don’t fret — let’s give it another shot</h3><p>You need to unzip your entire archive, not just individual folders, in order to view them here. If you keep experiencing errors, please <a href="https://help.twitter.com/forms/privacy" target="_blank">fill out this form.</a></p></div><div id="mobile-error"><h3>Your archive isn’t available here.</h3><p>You need to view this on a desktop browser in order to see your archive.</p></div><script>function showManifestError() {
+      }
+      body {
+        margin: 0;
+      }
+      #banner {
+        font: 13px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+        color: rgb(101, 119, 134);        
+        border-bottom: 1px solid rgb(204, 214, 221);
+        padding: 20px 10px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        gap: 10px;
+        text-wrap: balance;
+        a {
+          color: inherit;
+        }
+      }</style><link rel="icon" href="./assets/images/favicon.ico"></head><body><div id="banner"><p>Twitter Archive of <a href="https://andreruffert.com">@andreruffert</a>. Sensitive information has been removed.</p><a href="https://github.com/andreruffert/twitter"><svg width="14" height="14" viewBox="0 0 16 16" version="1.1" aria-hidden="true" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z" fillRule="evenodd"></path></svg></a></div><div id="root"></div><div id="manifest-error"><h3>Something went wrong, but don’t fret — let’s give it another shot</h3><p>You need to unzip your entire archive, not just individual folders, in order to view them here. If you keep experiencing errors, please <a href="https://help.twitter.com/forms/privacy" target="_blank">fill out this form.</a></p></div><div id="mobile-error"><h3>Your archive isn’t available here.</h3><p>You need to view this on a desktop browser in order to see your archive.</p></div><script>function showManifestError() {
         document.getElementById('root').style.display = 'none';
         document.getElementById('manifest-error').style.display = 'block';
       }</script><script src="./data/manifest.js" onerror="showManifestError()"></script><script src="assets/js/runtime.9662ea169e7e46b859ee.js"></script><script src="assets/js/modules.9072ed6e90fe38c485fe.js"></script><script src="assets/js/i18n.e27e67d39fcc91627cab.js"></script><script src="assets/js/main.0506aebee0a5b8f83a32.js"></script></body></html>
